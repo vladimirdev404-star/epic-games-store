@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Games Store</title>
+    <link rel="stylesheet" href="..//css/figma.css">
+    <script src="..//JS/figma.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-vse">
+            <img class="logo"
+                 src="https://i.postimg.cc/XvgLC709/logo-Epic-Games-Store.png">
+
+            <nav class="menu">
+                <a href="https://store.epicgames.com/ru/">Магазин <span>⌄</span></a>
+                <a href="#games">Игры <span>⌄</span></a>
+                <a href="https://store.epicgames.com/ru/news">Новости</a>
+                <a href="https://www.epicgames.com/site/ru/about">О нас</a>
+            </nav>
+
+            <div class="search">
+                <input type="text" id="search-input" placeholder="Поиск игр...">
+                <button type="button" id="search-button">⌕</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="center">
+        <div class="center-vse">
+            <h1>Epic Games Store</h1>
+            <p>Открой для себя отличные игры</p>
+        </div>
+    </main>
+
+    <div class="games" id="games">
+        <div class="games-header">
+            <div>
+                <h2>Популярные игры</h2>
+                <p>Найди свою следующую любимую игру</p>
+            </div>
+            <a href="https://store.epicgames.com/ru/browse">Смотреть все</a>
+        </div>
+
+        <p id="search-message" hidden>Игры не найдены</p>
+
+        <div class="games-list">
+            <div class="game" data-search="fortnite фортнайт">
+                <a href="https://store.epicgames.com/ru/p/fortnite">
+                    <img src="https://i.postimg.cc/LXGBLqnq/images.jpg" alt="Fortnite">
+                </a>
+                <h3>Fortnite</h3>
+                <p>Исследуй мир и играй с друзьями.</p>
+                <span>Бесплатно</span>
+            </div>
+
+            <div class="game" data-search="rocket league рокет лига">
+                <a href="https://store.epicgames.com/ru/p/rocket-league">
+                    <img src="https://i.postimg.cc/59v8D2XS/Rocket-Leagua.jpg" alt="Rocket League">
+                </a>
+                <h3>Rocket League</h3>
+                <p>Футбол на высоких скоростях за рулём машин.</p>
+                <span>Бесплатно</span>
+            </div>
+
+            <div class="game" data-search="fall guys фол гайс">
+                <a href="https://store.epicgames.com/ru/p/fall-guys">
+                    <img src="https://i.postimg.cc/V6tbyKLZ/Fall-Guys.jpg" alt="Fall Guys">
+                </a>
+                <h3>Fall Guys</h3>
+                <p>Соревнуйся в весёлых полосах препятствий.</p>
+                <span>Бесплатно</span>
+            </div>
+
+            <div class="game" data-search="genshin impact геншин импакт">
+                <a href="https://store.epicgames.com/ru/p/genshin-impact">
+                    <img src="https://i.postimg.cc/59q6wYYd/Genshin-Impact.jpg" alt="Genshin Impact">
+                </a>
+                <h3>Genshin Impact</h3>
+                <p>Исследуй огромный фэнтезийный мир.</p>
+                <span>Бесплатно</span>
+            </div>
+
+            <div class="game" data-search="honkai star rail хонкай стар рейл">
+                <a href="https://store.epicgames.com/ru/p/honkai-star-rail">
+                    <img src="https://i.postimg.cc/vmFsqhkz/Honkai-Star-Rail.jpg" alt="Honkai: Star Rail">
+                </a>
+                <h3>Honkai: Star Rail</h3>
+                <p>Отправляйся в приключение среди звёзд.</p>
+                <span>Бесплатно</span>
+            </div>
+
+            <div class="game" data-search="warframe варфрейм">
+                <a href="https://store.epicgames.com/ru/p/warframe">
+                    <img src="https://i.postimg.cc/9QT37T0m/Warframe.jpg" alt="Warframe">
+                </a>
+                <h3>Warframe</h3>
+                <p>Погрузись в научно-фантастическое приключение.</p>
+                <span>Бесплатно</span>
+            </div>
+        </div>
+    </div>
+
+    <section class="featured">
+        <div class="featured-banner">
+            <img src="https://i.postimg.cc/K8v2d484/Epic-Games-Store-banner.jpg" alt="Подборка игр">
+        </div>
+
+        <div class="featured-header">
+            <h2>Открой для себя больше игр</h2>
+            <p>Подборка игр, которые могут тебе понравиться</p>
+        </div>
+
+        <div class="featured-content">
+            <div class="featured-small">
+                <div class="featured-card">
+                    <img src="https://i.postimg.cc/d0gckBmJ/Fortnite-banner.jpg" alt="Fortnite">
+                    <h3>Новые приключения</h3>
+                    <p>Открой для себя новые игры.</p>
+                </div>
+
+                <div class="featured-card">
+                    <img src="https://i.postimg.cc/fb1QtKjc/Rocket-League-banner.jpg" alt="Rocket League">
+                    <h3>Играй с друзьями</h3>
+                    <p>Найди игру для совместного прохождения.</p>
+                </div>
+            </div>
+
+            <div class="featured-big">
+                <img src="https://i.postimg.cc/yxXMGzqY/Genshin-Impact-banner.jpg" alt="Genshin Impact">
+                <div class="featured-info">
+                    <h2>Открой новые миры</h2>
+                    <p>Большие приключения ждут тебя.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
